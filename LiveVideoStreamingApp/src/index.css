@@ -1,3 +1,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.Home-Page{
+  display: flex;
+  justify-content:center ;
+  align-items: center;
+  background-color: #333;
+  max-width: 60vw;
+  margin:auto ;
+}
+.Room{
+  display: flex;
+  flex-direction: column;
+  gap:10px;
+}
+.Room label{
+  color: white;
+}
+.but{
+margin-top: 20px;
+}
